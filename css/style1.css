@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* { margin:0; padding:0; }
+
+.join {
+    width:1000px;
+    margin:0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    color:#333;
+}
+.join h1 { text-align: center; margin:30px 0; }
+.join hr {
+    height:2px;
+    background-color:#6086aa;
+}
+.join label {
+    display: inline-block;
+    background-color:#e7eef6;
+    padding:10px;
+    width:140px;
+    padding-left:10px;
+}
+.join label i {
+    font-size:8px;
+    margin:7px;
+    color:#6086aa;
+}
+.join input {
+    border:1px solid #ccc;
+    width:200px;
+    padding:10px;
+    margin: 1px 5px;
+}
+.join input.password {
+    margin-right:110px;
+}
+.join input.name {
+    width:250px;
+    margin-right:60px;
+}
+.join input.number {
+    width:120px;
+}
+.join input.email {
+    width:100px;
+}
+.join select {
+    width:200px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border:1px solid #ccc;
+    text-align: center;
+}
+.join input[type=radio] {
+    margin:5px;
+    margin-left:10px;
+    width:initial;    /*초기화*/
+}
+.join input[type=checkbox] {
+    margin:5px;
+    margin-left:40px;
+    width:initial;    /*초기화*/
+}
+.join input.first {
+    margin-left: 5px;
+}
+.join .tel {
+    width:70px;
+}
+.join input.tel2 {
+    width:90px;
+}
+.join input.addr {
+    width:190px;
+}
+.join input.addr2 {
+    margin-left: 165px;
+    width:370px;
+}
+.join input.addr3 {
+    width:370px;
+}
+.join label.second1 {
+    margin-left: 205px;
+}
+.join label.second2 {
+    margin-left: 218px;
+}
+.join label.intro {
+    float:left;
+    height:100px;
+}
+.join textarea {
+    float:left;
+    margin: 3px;
+    border:1px solid #ccc;
+    padding:5px;
+}
+.join button {
+    border:none;
+    padding:10px;
+    font-size:13px;
+    font-weight: bold;
+    background-color: transparent;
+    border:1px solid #ccc;
+    color:#666;
+}
+.join button i {
+    background-color: #333;
+    color:#fff;
+    font-size:5px;
+    padding:3px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.join .btn {
+    background-color:#87aac8;
+    color:#fff;
+}
+.join .btn i {
+    background-color:#6086aa;
+    color:#fff;
+    font-size:8px;
+    padding:3px;
+    margin-right: 5px;
+}
+.join div.btn_area {
+    width:100%;
+    clear:both;
+    text-align: center;
+}
+.join div.btn_area .btn {
+    margin: 10px 5px;
+}

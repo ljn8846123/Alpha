@@ -1,0 +1,91 @@
+*{margin:0; padding:0;}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.join{
+    font-family: 'S-CoreDream-3Light';
+    width:1000px;
+    margin:0 auto;
+    font-size:14px;
+    color:#333;
+}
+.join h1{
+    text-align:center;
+    margin:30px 0;
+    color:tomato;
+}
+.join hr{
+    height:3px;
+    background-color:tomato;
+    border:none;
+}
+.join label{
+    display:inline-block; /*인라인->블럭*/
+    background-color:rgb(239, 255, 207);
+    padding:10px;
+    width:140px;
+}
+.join label i{
+    font-size:7px;
+    color:tomato;
+}
+
+.join input{
+    border:1px solid #ccc;
+    padding:10px;
+    width:200px;
+}
+.join input.password{
+    margin-right:110px;
+}
+.join input.name{
+    width:250px;
+    margin-right:60px;
+}
+.join input.number{
+    width:120px;
+}
+.join input.email{
+    width:100px;
+}
+.join select{
+    width:200px;
+    padding:10px;
+    margin-right:10px;
+    margin-left:5px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+.join input[type=radio]{
+    margin-left:5px;
+    margin-left:10px;
+    width:initial; /*초기화*/
+}
+.join input[type=checkbox]{
+    margin:5px;
+    margin-left:40px;
+    width:initial;
+}
+.join button{
+    border:none;
+    padding:10px;
+    font-size:13px;
+    font-weight:bold;
+    background-color:transparent;
+    border:1px solid #ccc;
+    color:#666;
+}
+.join .btn{
+    background-color:tomato;
+    color:#fff;
+}
+.join .btn i{
+    background-color:red;
+    color:#fff;
+    font-size:8px;
+    padding:3px;
+    margin-right:5px;
+}
